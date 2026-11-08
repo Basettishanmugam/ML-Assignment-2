@@ -25,9 +25,13 @@ Install Python from https://www.python.org/downloads/ if needed. On Windows tick
 
 ```powershell
 py -3.12 -m venv .venv
+
 .venv\Scripts\Activate.ps1
+
 python -m pip install --upgrade pip
+
 pip install -r requirements.txt
+
 streamlit run app.py
 ```
 If activation says *"running scripts is disabled on this system"*, run this once and retry:
@@ -40,9 +44,13 @@ Leave the environment with `deactivate`.
 
 ```bat
 py -3.12 -m venv .venv
+
 .venv\Scripts\activate.bat
+
 python -m pip install --upgrade pip
+
 pip install -r requirements.txt
+
 streamlit run app.py
 ```
 
@@ -50,9 +58,13 @@ streamlit run app.py
 
 ```bash
 py -3.12 -m venv .venv
+
 source .venv/Scripts/activate
+
 python -m pip install --upgrade pip
+
 pip install -r requirements.txt
+
 streamlit run app.py
 ```
 
@@ -60,9 +72,13 @@ streamlit run app.py
 
 ```bash
 python3 -m venv .venv
+
 source .venv/bin/activate
+
 python -m pip install --upgrade pip
+
 pip install -r requirements.txt
+
 streamlit run app.py
 ```
 
@@ -70,9 +86,13 @@ streamlit run app.py
 
 ```bash
 python3 -m venv .venv
+
 source .venv/bin/activate
+
 python -m pip install --upgrade pip
+
 pip install -r requirements.txt
+
 streamlit run app.py
 ```
 
@@ -105,8 +125,13 @@ The app opens at **http://localhost:8501** - click **Use bundled sample test set
 
 Needs `pip install -r requirements-dev.txt`. The one-line form works in **every** shell:
 
-```
-python tools/build_submission_pdf.py --name "Basetti Shanmugam" --student-id "2026AJ05044" --email "you@example.com" --github "https://github.com/Basetti-Shanmugam/ML-Assignment-2-AIML" --app "https://YOUR-APP.streamlit.app" --screenshot screenshots/bits_virtual_lab.png
+```bash
+python tools/build_submission_pdf.py
+name "Basetti Shanmugam" 
+student-id "2026AJ05044" 
+email "2026aj05044@wilp.bits-pilani.ac.in" 
+github "https://github.com/Basettishanmugam/ML-Assignment-2" 
+app "https://bits-2026aj05044-ml-assignment-2.streamlit.app/" 
 ```
 Output: `submission/ML_Assignment_2_Submission.pdf` (add `--out some\path.pdf` to choose another location). To split the command over several lines, use the line-continuation character of your shell:
 **PowerShell** `` ` `` (backtick) · **cmd** `^` · **bash / zsh** `\`.

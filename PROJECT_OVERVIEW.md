@@ -42,9 +42,16 @@ Switch data source in the Phase 1 cell by commenting Option B and un-commenting 
 
 ## Upload to GitHub / deploy
 Follow `deployment/GITHUB_DEPLOYMENT.md` then `deployment/STREAMLIT_DEPLOYMENT.md`. Then paste the two links into `README.md` (sections d and l) and regenerate the PDF with your details (needs `requirements-dev.txt`). This single line works in **every** shell (PowerShell, cmd, bash, zsh):
+
+```bash
+python tools/build_submission_pdf.py
+name "Basetti Shanmugam" 
+student-id "2026AJ05044" 
+email "2026aj05044@wilp.bits-pilani.ac.in" 
+github "https://github.com/Basettishanmugam/ML-Assignment-2" 
+app "https://bits-2026aj05044-ml-assignment-2.streamlit.app/" 
 ```
-python tools/build_submission_pdf.py --name "Your Name" --student-id "2026AJxxxxx" --email "you@example.com" --github "https://github.com/Basetti-Shanmugam/ML-Assignment-2-AIML" --app "https://YOUR-APP.streamlit.app" --screenshot screenshots/bits_virtual_lab.png
-```
+
 Any option you omit stays as a visible placeholder.
 
 ## Viva cheat-sheet (what to be able to explain)

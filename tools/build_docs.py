@@ -177,8 +177,8 @@ Requires **Python 3.11 or newer** (developed and tested with 3.12). Get the code
 Full per-shell instructions and troubleshooting are in [`SETUP_BY_OS.md`](SETUP_BY_OS.md).
 
 ```bash
-git clone https://github.com/Basetti-Shanmugam/ML-Assignment-2-AIML.git
-cd ML-Assignment-2-AIML
+git clone https://github.com/Basettishanmugam/ML-Assignment-2.git
+cd ML-Assignment-2
 ```
 
 | OS / shell | Create + activate the environment | Install |
@@ -282,7 +282,7 @@ After your app is deployed:
 1. Click **+ → New repository**.
 2. Repository name: `ML_Assignment_2` (or similar). Visibility: **Public** (Streamlit Community Cloud's free tier needs access to the repo; public is simplest, and your evaluator can open it).
 3. **Do NOT** tick "Add a README", ".gitignore" or "license" (the project already has them - this avoids merge conflicts).
-4. Click **Create repository** and copy the HTTPS URL, e.g. `https://github.com/Basetti-Shanmugam/ML-Assignment-2-AIML.git`.
+4. Click **Create repository** and copy the HTTPS URL, e.g. `https://github.com/Basettishanmugam/ML-Assignment-2`.
 
 ## 3. Install and configure Git (once)
 ```bash
@@ -300,7 +300,7 @@ Commit when you *really* complete a step, with a message describing that step.
 **Your repository already exists and is not empty** (`https://github.com/Basetti-Shanmugam/ML-Assignment-2-AIML` has one commit with a `README.md` and `.gitignore`), so do **not** run `git init`;
 clone it, copy the project in, and work from the clone:
 ```bash
-git clone https://github.com/Basetti-Shanmugam/ML-Assignment-2-AIML.git
+git clone https://github.com/Basettishanmugam/ML-Assignment-2
 cd ML-Assignment-2-AIML
 ```
 Now copy the **contents** of the unzipped `ML_Assignment_2` folder into this `ML-Assignment-2-AIML` folder, overwriting the existing `README.md` and `.gitignore`.
@@ -355,7 +355,7 @@ git add README.md && git commit -m "Add GitHub and Streamlit links to README" &&
 3. Open the notebook on GitHub - outputs should render.
 4. Optional full test: clone into a new folder and run it
 ```bash
-git clone https://github.com/Basetti-Shanmugam/ML-Assignment-2-AIML.git test_clone && cd test_clone
+git clone https://github.com/Basettishanmugam/ML-Assignment-2 test_clone && cd test_clone
 python -m venv .venv
 # activate: Windows PowerShell  .venv\\Scripts\\Activate.ps1  |  cmd  .venv\\Scripts\\activate.bat  |  macOS/Linux  source .venv/bin/activate
 pip install -r requirements.txt
@@ -468,7 +468,7 @@ Switch data source in the Phase 1 cell by commenting Option B and un-commenting 
 ## Upload to GitHub / deploy
 Follow `deployment/GITHUB_DEPLOYMENT.md` then `deployment/STREAMLIT_DEPLOYMENT.md`. Then paste the two links into `README.md` (sections d and l) and regenerate the PDF with your details (needs `requirements-dev.txt`). This single line works in **every** shell (PowerShell, cmd, bash, zsh):
 ```
-python tools/build_submission_pdf.py --name "Your Name" --student-id "2026AJxxxxx" --email "you@example.com" --github "https://github.com/Basetti-Shanmugam/ML-Assignment-2-AIML" --app "https://YOUR-APP.streamlit.app" --screenshot screenshots/bits_virtual_lab.png
+python tools/build_submission_pdf.py --name "Basetti Shanmugam" --student-id "2026AJ05044" --email "2026aj05044@wilp.bits-pilani.ac.in" --github "https://github.com/Basetti-Shanmugam/ML-Assignment-2-AIML" --app "https://bits-2026aj05044-ml-assignment-2.streamlit.app/"
 ```
 Any option you omit stays as a visible placeholder.
 

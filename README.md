@@ -46,7 +46,7 @@ Accuracy, AUC, Precision, Recall, F1 and MCC. The best model is then exposed thr
 > converted to one standard schema by `src/data_loader.py`. Option B was used to produce all results in this repository.
 
 ## d. GitHub Repository Link
-https://github.com/Basetti-Shanmugam/ML-Assignment-2-AIML
+https://github.com/Basettishanmugam/ML-Assignment-2
 
 ## e. Data Preprocessing
 1. Features and target separated; schema validated (16 features + `Class`).
@@ -126,7 +126,9 @@ and does not import the training module. Uploaded rows are used only for predict
 `requirements.txt` pins `scikit-learn==1.8.0` and the other packages to the versions used for training.
 
 ## l. Deployment Link
-<YOUR_STREAMLIT_APP_URL>   <!-- TODO: paste after you deploy and test the app -->
+Live Streamlit application link
+
+https://bits-2026aj05044-ml-assignment-2.streamlit.app/
 
 ## m. Project Folder Structure
 ```
@@ -171,8 +173,8 @@ Requires **Python 3.11 or newer** (developed and tested with 3.12). Get the code
 Full per-shell instructions and troubleshooting are in [`SETUP_BY_OS.md`](SETUP_BY_OS.md).
 
 ```bash
-git clone https://github.com/Basetti-Shanmugam/ML-Assignment-2-AIML.git
-cd ML-Assignment-2-AIML
+git clone https://github.com/Basettishanmugam/ML-Assignment-2
+cd ML-Assignment-2
 ```
 
 | OS / shell | Create + activate the environment | Install |
