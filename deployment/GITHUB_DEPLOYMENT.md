@@ -11,7 +11,7 @@
 1. Click **+ → New repository**.
 2. Repository name: `ML_Assignment_2` (or similar). Visibility: **Public** (Streamlit Community Cloud's free tier needs access to the repo; public is simplest, and your evaluator can open it).
 3. **Do NOT** tick "Add a README", ".gitignore" or "license" (the project already has them - this avoids merge conflicts).
-4. Click **Create repository** and copy the HTTPS URL, e.g. `https://github.com/Basetti-Shanmugam/ML-Assignment-2-AIML.git`.
+4. Click **Create repository** and copy the HTTPS URL, e.g. `https://github.com/Basettishanmugam/ML-Assignment-2`.
 
 ## 3. Install and configure Git (once)
 ```bash
@@ -29,7 +29,7 @@ Commit when you *really* complete a step, with a message describing that step.
 **Your repository already exists and is not empty** (`https://github.com/Basetti-Shanmugam/ML-Assignment-2-AIML` has one commit with a `README.md` and `.gitignore`), so do **not** run `git init`;
 clone it, copy the project in, and work from the clone:
 ```bash
-git clone https://github.com/Basetti-Shanmugam/ML-Assignment-2-AIML.git
+git clone https://github.com/Basettishanmugam/ML-Assignment-2
 cd ML-Assignment-2-AIML
 ```
 Now copy the **contents** of the unzipped `ML_Assignment_2` folder into this `ML-Assignment-2-AIML` folder, overwriting the existing `README.md` and `.gitignore`.
@@ -84,7 +84,7 @@ git add README.md && git commit -m "Add GitHub and Streamlit links to README" &&
 3. Open the notebook on GitHub - outputs should render.
 4. Optional full test: clone into a new folder and run it
 ```bash
-git clone https://github.com/Basetti-Shanmugam/ML-Assignment-2-AIML.git test_clone && cd test_clone
+git clone https://github.com/Basettishanmugam/ML-Assignment-2 test_clone && cd test_clone
 python -m venv .venv
 # activate: Windows PowerShell  .venv\Scripts\Activate.ps1  |  cmd  .venv\Scripts\activate.bat  |  macOS/Linux  source .venv/bin/activate
 pip install -r requirements.txt
